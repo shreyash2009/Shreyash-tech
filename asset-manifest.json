@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Shreyash-tech/static/css/main.433be1a7.css",
+    "main.js": "/Shreyash-tech/static/js/main.c8c5f9c3.js",
+    "static/media/resume.pdf": "/Shreyash-tech/static/media/resume.2d09c460fc56adb69a80.pdf",
+    "static/media/Dev1.png": "/Shreyash-tech/static/media/Dev1.0ba9206ded0f3e2a739a.png",
+    "static/media/blob-haikei.png": "/Shreyash-tech/static/media/blob-haikei.26a6ac03b13b1e197377.png",
+    "index.html": "/Shreyash-tech/index.html",
+    "main.433be1a7.css.map": "/Shreyash-tech/static/css/main.433be1a7.css.map",
+    "main.c8c5f9c3.js.map": "/Shreyash-tech/static/js/main.c8c5f9c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.433be1a7.css",
+    "static/js/main.c8c5f9c3.js"
+  ]
+}
