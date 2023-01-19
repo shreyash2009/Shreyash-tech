@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Fascinate+Inline&family=Gentium+Plus:wght@700&family=Inconsolata&family=Lato:ital,wght@1,700&family=Lobster&family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@900&family=Yeon+Sung&display=swap');
+
+.Skills_section{
+    margin-top: 2rem;
+    padding: 0.2rem 1rem;
+
+    .section_heading{
+        text-align: center;
+        font-size: 2.5rem;
+        position: relative;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 2px grey;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+        
+        &::after{
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 40%;
+            height: 4px;
+            transform: translate(-50%,-50%);
+            background-color: #162719;
+            margin-top: 5px;
+        }
+
+    }
+    .Skill_container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+        .container{
+            width: 25rem;
+            min-width: 16rem;
+            padding: 1rem 0.7rem;
+            background-color: #6c757d;
+            background-color: #f4f4f48f;
+            border-radius: 10px;
+            // box-shadow: -2px -2px 3px 1px grey;
+            transition: all 0.2s ease;
+            margin: 1.4rem;
+            // &:hover{
+            // box-shadow: 2px 2px 3px 1px grey;
+                
+            
+            h4{
+                text-align: center;
+                margin-bottom: 1rem;
+                font-size: 1.3rem;
+                font-weight: bolder;
+                position: relative;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  letter-spacing: 1.3px;
+                // &::after{
+                //     content: "";
+                //     width: 100%;
+                //     position: absolute;
+                //     top: 100%;
+                //     left: 0;
+                //     margin-top: 3px;
+                //     height: 3px;
+                //     background-color: #162719;
+                // }
+            }
+            .skill_boxes{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                button{
+                    margin: 0.5rem;
+                    padding: 1rem;
+                    border-radius: 10px;
+                    transition: all 0.3ms ease-in;
+                    background-color: #343a4000;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  border: 2px solid #162719;
+
+                    &:hover{
+                        transform: scale(1.02);
+                        box-shadow: 0.3px 0.2px 6px 1px #fcd6ae;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+//respinsive part 
+@media(max-width: 1020px){
+    .Skill_container{
+        .container{
+            width: 70%!important;
+        }
+    }
+}

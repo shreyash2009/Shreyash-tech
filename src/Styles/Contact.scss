@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Fascinate+Inline&family=Gentium+Plus:wght@700&family=Inconsolata&family=Lato:ital,wght@1,700&family=Lobster&family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@900&family=Yeon+Sung&display=swap");
+
+.Contact_section{
+    margin-top: 3rem;
+    .section_heading{
+        text-align: center;
+        font-size: 2.5rem;
+        position: relative;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 2px grey;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+        
+        &::after{
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 40%;
+            height: 4px;
+            transform: translate(-50%,-50%);
+            background-color: #162719;
+            margin-top: 1rem;
+        }
+    }
+
+.contact_container{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    gap: 2rem;
+    flex-wrap: wrap-reverse;
+    margin-top: 4rem;
+    .map_box{
+        background-color: #162719;
+        color: white;
+
+        .map_footer{
+            padding: 1rem;
+            
+            p{
+                padding: 0.3rem;
+  font-family: "Poppins", sans-serif;
+                
+            }
+        }
+    }
+}
+.contactForm{
+    font-family: "Poppins", sans-serif;
+
+    .Formheading{
+        font-size: 1.4rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+}
+.from-btn{
+    width: 50%;
+    margin: 2rem auto;
+    display: block;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+//form style
+
+@media(max-width:1308px){
+    .contact_container{
+        flex-wrap:wrap-reverse;
+        margin: 2rem auto;
+
+        .map_box{
+           margin: auto;
+        }
+        .contactForm{
+            width: 80%;
+            margin: auto;
+            padding: 2rem;
+
+            
+        }
+    }
+}
+@media(max-width:400px){
+    .contact_container{
+    //   overflow: hidden;
+
+        .map_box{
+           margin: auto;
+        }
+        .contactForm{
+            width: 100%;
+            margin: auto;
+            padding: 1.2rem;
+
+            
+        }
+    }
+}
+
+}
